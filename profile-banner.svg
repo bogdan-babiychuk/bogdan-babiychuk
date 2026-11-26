@@ -1,35 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="252" viewBox="0 0 1000 252" role="img" aria-labelledby="title desc">
-  <title id="title">Bogdan Babiychuk · Python Backend Developer</title>
-  <desc id="desc">A dark green banner with a diagram linking API, domain, and data.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="224" viewBox="0 0 1000 224" role="img" aria-labelledby="title">
+  <title id="title">Bogdan Babiychuk · Python Backend &amp; Machine Learning</title>
   <defs>
-    <linearGradient id="bg" x2="100%" y2="100%" gradientUnits="objectBoundingBox">
-      <stop stop-color="#101d19"/>
-      <stop offset="1" stop-color="#172b24"/>
+    <linearGradient id="background" x2="100%" y2="100%">
+      <stop stop-color="#151724"/>
+      <stop offset="1" stop-color="#242541"/>
     </linearGradient>
-    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#91b69d" opacity=".22"/>
-    </pattern>
+    <linearGradient id="lines" x2="100%" y2="90%">
+      <stop stop-color="#b7b8f8" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#b7b8f8" stop-opacity=".52"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="1" y="1" width="998" height="222" rx="18"/></clipPath>
+    <path id="wave" d="M682 248C752 237 736 177 801 161S908 184 953 143 981 68 1038 50"/>
   </defs>
-  <rect x="1" y="1" width="998" height="250" rx="20" fill="url(#bg)" stroke="#456658"/>
-  <rect x="637" y="24" width="328" height="204" rx="10" fill="url(#grid)"/>
-  <path d="M610 43v166" stroke="#456658"/>
-  <g font-family="ui-monospace, Menlo, Consolas, monospace">
-    <text x="50" y="63" fill="#99e4b3" font-size="16" letter-spacing="3">PYTHON BACKEND DEVELOPER</text>
-    <text x="51" y="183" fill="#b2ccb9" font-size="18">FastAPI / Django / SQL / Docker</text>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="224" fill="url(#background)"/>
+    <g fill="none" stroke="url(#lines)" stroke-width="1.5">
+      <use href="#wave"/>
+      <use href="#wave" transform="translate(0 -18)"/>
+      <use href="#wave" transform="translate(0 -36)"/>
+      <use href="#wave" transform="translate(0 -54)"/>
+      <use href="#wave" transform="translate(0 -72)"/>
+      <use href="#wave" transform="translate(0 -90)"/>
+      <use href="#wave" transform="translate(0 -108)"/>
+    </g>
+    <path d="M55 56h42" stroke="#bdbbfb" stroke-width="3" stroke-linecap="round"/>
+    <text x="51" y="125" fill="#f5f4ff" font-size="66" font-weight="700" font-family="system-ui, -apple-system, sans-serif">Bogdan Babiychuk</text>
+    <text x="55" y="173" fill="#cecffa" font-size="32" font-family="system-ui, -apple-system, sans-serif">Python Backend &amp; Machine Learning</text>
   </g>
-  <text x="47" y="132" fill="#f0f8f0" font-size="53" font-weight="700" font-family="system-ui, -apple-system, sans-serif">Bogdan Babiychuk</text>
-  <g stroke="#99e4b3" stroke-width="2" fill="none">
-    <path d="M797 88v17m0 42v17"/>
-    <path d="m793 100 4 5 4-5m-8 59 4 5 4-5"/>
-  </g>
-  <g fill="#172b24" stroke="#6ba885">
-    <rect x="704" y="47" width="186" height="41" rx="8"/>
-    <rect x="704" y="106" width="186" height="41" rx="8"/>
-    <rect x="704" y="165" width="186" height="41" rx="8"/>
-  </g>
-  <g fill="#d2edda" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16" letter-spacing="2">
-    <text x="797" y="73">API</text>
-    <text x="797" y="132">DOMAIN</text>
-    <text x="797" y="191">DATA</text>
-  </g>
+  <rect x="1" y="1" width="998" height="222" rx="18" fill="none" stroke="#464966"/>
 </svg>
